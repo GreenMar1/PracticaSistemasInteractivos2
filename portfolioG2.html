@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Edición de Video</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}body{background:#333;font-family:'Inter',sans-serif}
+#c{width:980px;height:1800px;margin:0 auto;background:#EAEAEA;display:flex;flex-direction:column}
+header{background:#7A1C1C;height:200px;display:flex;align-items:center;justify-content:center}
+header h1{color:#fff;font-size:36px;font-weight:400;text-align:center}
+.sec{width:700px;margin:60px auto;text-align:center}
+.row{display:flex;align-items:center;gap:20px;margin-bottom:20px}
+.row img{width:70px;height:70px;border-radius:50%}
+.row span{font-size:18px}
+.box{text-align:center;margin-bottom:20px}
+.box img{width:100%}
+.box p{font-size:16px;text-align:left}
+.btn{display:flex;justify-content:center;margin:20px 0}
+.btn img{width:250px}
+footer{margin-top:auto;background:#000;height:140px;display:flex;justify-content:space-between;align-items:center;padding:0 80px}
+footer img{width:80px;opacity:.8}
+    .video-container {width: 100%; aspect-ratio: 16/9; border-radius: 12px; overflow: hidden;  margin-bottom: 10px;}
+
+        .video-container iframe {width: 100%; height: 100%;}
+</style>
+</head>
+<body>
+<div id="c">
+
+<header><h1>Edición de Video</h1></header>
+
+<div class="sec">
+
+<div class="row">
+<img src="imagenes/ProfileG.png" alt="Profile">
+<span>Caminata Lunar</span>
+</div>
+<div class="box">
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/Rz0aTKZmaL0?si=MxwMpDB48tbs_cCa"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <p>Proyecto académico.<br>Edición de cinemática para videojuego.</p>
+</div>
+
+<div class="row">
+<img src="imagenes/ProfileG.png" alt="Profile">
+<span>Reel de Dibujo</span>
+</div>
+<div class="box">
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/B6gVREQ0jGE?si=MlRmKRhmjuz21Dtf"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <p>Proyecto personal.<br>Edición de video corto para plataforma.</p>
+</div>
+
+<div class="btn">
+    <a href="contactoGabriel.html"><img src="imagenes/contactarBtn.png" alt="Contactar"></a>
+</div>
+
+</div>
+
+<footer>
+    <a href="diseñadores.html"><img src="imagenes/Boton_Diseñadores.png" alt="Usuario"></a>
+    <a href="portfolioGabriel.html"><img src="imagenes/Boto_Portafolio.png" alt="PortafolioB"></a>
+    <a href="index.html"><img src="imagenes/Boton_Casa.png" alt="Inicio"></a>
+</footer>
+
+</div>
+</body>
+</html>
